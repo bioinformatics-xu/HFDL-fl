@@ -11,7 +11,7 @@ import datetime
 import copy
 
 from utils import *
-from resnetcifar import *
+# from resnetcifar import *
 from datasets import DrugResponse
 
 def get_args():
@@ -370,8 +370,17 @@ def train_net_fednova(net_id, net, global_model, train_dataloader, test_dataload
     logger.info('>> Test accuracy: %f' % test_acc)
     logger.info(' ** Training complete **')
 
+def create_dir_and_file(file_path):
+    directory = os.path.dirname(file_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    if not os.path.isfile(file_path):
+        with open(file_path, 'w'):
+            pass  # do nothing, just create the file
+
 def create_csv(X, csv_head):
     path = str(args.datadir + "/results/" + "%s.csv" % (X))
+    create_dir_and_file(path)
     with open(path, 'w', newline='', encoding='utf-8_sig') as f:
         csv_write = csv.writer(f)
         csv_write.writerow(csv_head)
