@@ -21,7 +21,7 @@ The files in data directory are the demo data, which are not responsible for the
 
 ## Cite
 
-This project is developed based on Non-NIID, if you find this repository useful, please cite paper:
+If you find this repository useful, please cite paper:
 
 Xu Xiaolu, Qi Zitong, Han Xiumei, Xu Aiguo, Geng Zhaohong, He Xinyu, Ren Yonggong, Duo Zhaojun. Predicting anticancer drug sensitivity on distributed data sources using federated deep learning. Heliyon (2023), 9(8).
 
