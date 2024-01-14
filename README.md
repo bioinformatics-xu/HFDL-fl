@@ -6,9 +6,6 @@ Predicting anticancer drug sensitivity on distributed data sources using federat
 
 We verified the feasibility of applying horizontal federated learning to collaborative drug sensitivity prediction based on distributed data sources. Combining the class imbalance property inherent to the prediction, a horizontal federated deep learning model with focal loss function was proposed, denoted as HFDL-fl.
 
-## Reference
-Xu Xiaolu, Qi Zitong, Han Xiumei, Xu Aiguo, Geng Zhaohong, He Xinyu, Ren Yonggong, Duo Zhaojun. Predicting anticancer drug sensitivity on distributed data sources using federated deep learning. Heliyon (2023), 9(8).
-
 ## Access
 
 HFDL-fl is free for non-commerical use only.
@@ -26,14 +23,11 @@ The files in data directory are the demo data, which are not responsible for the
 
 This project is developed based on Non-NIID, if you find this repository useful, please cite paper:
 
-```
-@inproceedings{li2022federated,
-      title={Federated Learning on Non-IID Data Silos: An Experimental Study},
-      author={Li, Qinbin and Diao, Yiqun and Chen, Quan and He, Bingsheng},
-      booktitle={IEEE International Conference on Data Engineering},
-      year={2022}
-}
-```
+Xu Xiaolu, Qi Zitong, Han Xiumei, Xu Aiguo, Geng Zhaohong, He Xinyu, Ren Yonggong, Duo Zhaojun. Predicting anticancer drug sensitivity on distributed data sources using federated deep learning. Heliyon (2023), 9(8).
+
+## Reference
+
+Li Qinbin, Diao Yiqun, Chen Quan, He Bingsheng. Federated learning on non-iid data silos: An experimental study. In 2022 IEEE 38th International Conference on Data Engineering (ICDE) (pp.965-978).
 
 ## Developer
 
